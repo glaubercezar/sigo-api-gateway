@@ -1,0 +1,8 @@
+runtime: nodejs10
+
+automatic_scaling:
+  max_instances: 2
+  target_throughput_utilization: 0.8
+  max_concurrent_requests: 50
+  max_pending_latency: 1200ms
+  min_pending_latency: 1000ms
